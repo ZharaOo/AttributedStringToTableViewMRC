@@ -13,7 +13,7 @@
 @end
 
 @interface ListTableViewController : UITableViewController
-@property (nonatomic, retain) id <ListTableViewControllerDelegate> delegate;
+@property (nonatomic, assign) id <ListTableViewControllerDelegate> delegate;
 @property (nonatomic, retain) NSMutableArray *dataArray;
 @end
 

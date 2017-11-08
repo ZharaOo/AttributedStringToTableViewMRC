@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ListTableViewController.h"
 
-@interface ViewController : UIViewController <UITextViewDelegate, ListTableViewControllerDelegate>
+@interface ViewController : UIViewController <UITextViewDelegate>
 
-@property (retain, nonatomic) IBOutlet UITextView *textView;
+@property (assign, nonatomic) IBOutlet UITextView *textView;
 
 @end

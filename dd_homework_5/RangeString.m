@@ -14,7 +14,7 @@
     [strParam retain];
     self = [super init];
     if (self) {
-        _string = strParam;
+        _string = [strParam copy];
         _range = rangeParam;
     }
     [strParam release];
